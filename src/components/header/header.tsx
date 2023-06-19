@@ -5,7 +5,7 @@ const Header = () => {
   const [navColor, setnavColor] = useState('transparent')
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor('#C0345E') : setnavColor('transparent')
+    window.scrollY > 10 ? setnavColor('#9EA9B1') : setnavColor('transparent')
   }
   useEffect(() => {
     window.addEventListener('scroll', listenScrollEvent)
